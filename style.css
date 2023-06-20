@@ -61,6 +61,17 @@
     width: 13px;
 }
 
+
+footer {
+    position: absolute;
+    bottom: 30;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-family: 'Inter';
+    font-size: 9px;
+}
+
 @media(max-width:765px) {
     .info h2 {
         font-size: 12px;
@@ -79,4 +90,9 @@
         letter-spacing: 0.18em;
     }
 
+    footer {
+        font-size: 6px;
+        width: 100%;
+        text-align: center;
+    }
 }
